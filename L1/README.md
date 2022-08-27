@@ -13,10 +13,10 @@ npx hardhat compile
 ```
 
 2. Create `L1/.env` file with the following contents:
-   Alchemy can be used to connect to the network (Any JSON-RPC URL can be used instead)
+   Infura can be used to connect to the network (Any JSON-RPC URL can be used instead)
 
 ```
-ALCHEMY_URL=<Alchemy key>
+INFURA_URL=<iNFURA key>
 PRIVATE_KEY=<Ethereum Wallet private key>
 ```
 

@@ -1,4 +1,5 @@
-# Workshop Application
+# L1-L2-Starknet-Messaging
+A little staking contract that depicts an L1-L2 messaging scenario with Starknet.
 
 This is a basic dApp in Starknet which can communicate with Ethereum, from where it inherits its security.
 The functionalities are as follows:
