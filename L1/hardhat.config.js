@@ -20,7 +20,7 @@ module.exports = {
       url: "http://localhost:5000",
     },
     goerli: {
-      url: process.env.ALCHEMY_URL,
+      url: `https://goerli.infura.io/v3/${process.env.INFURA_URL}`,
       accounts: [`0x${process.env.PRIVATE_KEY}`],
     },
   },
