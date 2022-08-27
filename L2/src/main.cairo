@@ -67,6 +67,15 @@ end
 # 
 
 @external
+func set_stake_l1_address{syscall_ptr : felt*, pedersen_ptr : HashBuiltin*, range_check_ptr}(
+    stake_l1_address_ : felt
+):
+    stake_l1_address.write(stake_l1_address_)
+
+    return ()
+end
+
+@external
 func withdraw{
         syscall_ptr : felt*,
         pedersen_ptr : HashBuiltin*,
