@@ -15,3 +15,7 @@ Since there are 2 separate contracts on Ethereum and Starknet, both setup need t
 
 - First follow the README file inside L2 folder
 - Later follow the README file inside L1 folder
+
+## Addresses
+Goerli 1 - 0xde29d060D45901Fb19ED6C6e959EB22d8626708e
+Goerli 2 - 0xa4eD3aD27c294565cB0DCc993BDdCC75432D498c
